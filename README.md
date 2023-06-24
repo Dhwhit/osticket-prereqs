@@ -42,7 +42,9 @@ Go to Windows Features -> Turn Windows features on or off -> Scroll down to Inte
 
 <p>
 Step 3: We will now download and install, PHP Manager for IIS & the Rewrite Module.  </p> 
-Afterwards we will create the Directory C:\PHP. Then download PHP 7.3.8 and unzip the contents into C:\PHP. For these installation files, you may use the provided link here: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6.   
+Afterwards we will create the Directory C:\PHP. </p> 
+--> Then download PHP 7.3.8 and unzip the contents into C:\PHP. </p> 
+For these installation files, you may use the provided link here: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6.   
 </p>
 <img src="https://i.imgur.com/5RzHq0w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
@@ -58,7 +60,7 @@ Step 4: Download and install VC redist.x86.exe & MySQL 5.5.62  </p>
 <br />
 
 <p>
-Step 5: Next we will Open IIS as an Admin and Register PHP from with IIS. 
+Step 5: Next we will Open IIS as an Admin and Register PHP from with IIS. </p>
 Please refer to the pictures for further detail. 
 </p>
 <img src="https://i.imgur.com/tOCxG7A.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -76,7 +78,8 @@ Now go back to the IIS and Restart the server, Next Go to Sites -> Default -> os
 <br />
 
 <p>
-Step 7: Next we will smoothen out the osTicket experience by enabling 3 extensions inside of the IIS application. To do this, go to Sites -> Default -> osTicket -> Click PHP manager. Click on "Disable or enable an extension":
+Step 7: Next we will smoothen out the osTicket experience by enabling 3 extensions inside of the IIS application. </p> 
+To do this, go to Sites -> Default -> osTicket -> Click PHP manager. Click on "Disable or enable an extension":
 
 Enable: -> php_imap.dll -> php_intl.dll -> php_opcache </p> 
 Next, we will rename: > C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php </p> 
@@ -107,7 +110,7 @@ Use the HeidiSQL database credentials to fill out the Database settings portion.
 
 </p>
 <img src="https://i.imgur.com/brq3jR3.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/Pqu5hqw.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Pqu5hqw.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/nWZBb4R.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
 <br />
@@ -120,5 +123,5 @@ Congratulations, the setup for osTicket is complete! </p>
 
 </p>
 <img src="https://i.imgur.com/cTlws6X.png" height="85%" width="85%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/EgLMFhy.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/EgLMFhy.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <br />
